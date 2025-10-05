@@ -173,6 +173,8 @@ cursor.destroy();
 
 ## Demo
 
+**Live Demo:** [https://rajasekarm.github.io/agent-cursor/](https://rajasekarm.github.io/agent-cursor/)
+
 Run the demo locally:
 
 ```bash

@@ -51,16 +51,16 @@
         - generic [ref=e44]:
           - heading "Event Log:" [level=3] [ref=e45]
           - generic [ref=e46]:
-            - generic [ref=e47]: "11:22:16 AM: ✅ Register Demo Complete!"
-            - generic [ref=e48]: "11:22:16 AM: ✅ Register button clicked!"
-            - generic [ref=e49]: "11:22:16 AM: Clicking register button..."
-            - generic [ref=e50]: "11:22:15 AM: Moving to register button..."
-            - generic [ref=e51]: "11:22:14 AM: Checking terms and conditions..."
-            - generic [ref=e52]: "11:22:13 AM: Moving to terms checkbox..."
-            - generic [ref=e53]: "11:22:13 AM: Selected: Canada"
-            - generic [ref=e54]: "11:22:12 AM: Selecting country..."
-            - generic [ref=e55]: "11:22:11 AM: Moving to country dropdown..."
-            - generic [ref=e56]: "11:22:09 AM: Typing password..."
+            - generic [ref=e47]: "11:26:27 AM: ✅ Register Demo Complete!"
+            - generic [ref=e48]: "11:26:27 AM: ✅ Register button clicked!"
+            - generic [ref=e49]: "11:26:26 AM: Clicking register button..."
+            - generic [ref=e50]: "11:26:26 AM: Moving to register button..."
+            - generic [ref=e51]: "11:26:24 AM: Checking terms and conditions..."
+            - generic [ref=e52]: "11:26:24 AM: Moving to terms checkbox..."
+            - generic [ref=e53]: "11:26:24 AM: Selected: Canada"
+            - generic [ref=e54]: "11:26:22 AM: Selecting country..."
+            - generic [ref=e55]: "11:26:22 AM: Moving to country dropdown..."
+            - generic [ref=e56]: "11:26:20 AM: Typing password..."
   - generic:
     - img
 ```
