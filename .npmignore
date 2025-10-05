@@ -1,0 +1,23 @@
+# Development files
+demo/
+src/
+vite.config.ts
+tsconfig.json
+
+# Node modules
+node_modules/
+
+# Build artifacts
+.vite/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+.DS_Store

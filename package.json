@@ -1,0 +1,57 @@
+{
+  "name": "agent-cursor",
+  "version": "1.0.0",
+  "description": "A programmatic cursor control library for AI agents and browser automation to interact with web pages",
+  "type": "module",
+  "main": "./dist/agent-cursor.js",
+  "types": "./dist/agent-cursor.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/agent-cursor.js",
+      "types": "./dist/agent-cursor.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc",
+    "build:demo": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cursor",
+    "agent",
+    "automation",
+    "browser-automation",
+    "web-automation",
+    "ai-agent",
+    "browser",
+    "typescript",
+    "ui-automation",
+    "programmatic-control",
+    "form-automation",
+    "cursor-control"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasekarm/agent-cursor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajasekarm/agent-cursor/issues"
+  },
+  "homepage": "https://github.com/rajasekarm/agent-cursor#readme",
+  "author": "Rajasekarm",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  }
+}

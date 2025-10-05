@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgentCursor Demo - TypeScript</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>AgentCursor Demo</h1>
+      <p>Watch the animated cursor move and interact with the page!</p>
+
+      <div class="demo-container">
+        <div class="forms-section">
+          <div class="login-form">
+            <h2>Login</h2>
+            <div class="form-group">
+              <label for="login-email">Email:</label>
+              <input
+                type="email"
+                id="login-email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="login-password">Password:</label>
+              <input
+                type="password"
+                id="login-password"
+                placeholder="Enter password"
+              />
+            </div>
+            <div class="form-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="login-remember" /> Remember me
+              </label>
+            </div>
+            <button id="login-submit" class="submit-btn">Login</button>
+          </div>
+
+          <div class="form-divider"></div>
+
+          <div class="register-form">
+            <h2>Register</h2>
+            <div class="form-group">
+              <label for="register-name">Full Name:</label>
+              <input
+                type="text"
+                id="register-name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="register-email">Email:</label>
+              <input
+                type="email"
+                id="register-email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="register-password">Password:</label>
+              <input
+                type="password"
+                id="register-password"
+                placeholder="Enter password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="register-country">Country:</label>
+              <select id="register-country">
+                <option value="">Select country</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="ca">Canada</option>
+                <option value="au">Australia</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="register-terms" /> I agree to terms
+                and conditions
+              </label>
+            </div>
+            <button id="register-submit" class="submit-btn">Register</button>
+          </div>
+        </div>
+
+        <div class="right-section">
+          <div class="instructions-panel">
+            <h3>Demo Instructions</h3>
+            <button id="run-login-demo" class="demo-btn">Run Login Demo</button>
+            <button id="run-register-demo" class="demo-btn">
+              Run Register Demo
+            </button>
+            <button id="destroy-cursor" class="demo-btn destroy-btn">
+              Destroy Cursor
+            </button>
+          </div>
+
+          <div class="log">
+            <h3>Event Log:</h3>
+            <div id="log-output"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/demo/src/demo.ts"></script>
+  </body>
+</html>
