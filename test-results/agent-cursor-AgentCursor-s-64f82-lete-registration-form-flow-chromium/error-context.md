@@ -1,0 +1,66 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - heading "AgentCursor Demo" [level=1] [ref=e3]
+    - paragraph [ref=e4]: Watch the animated cursor move and interact with the page!
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - heading "Login" [level=2] [ref=e8]
+          - generic [ref=e9]:
+            - generic [ref=e10]: "Email:"
+            - textbox "Email:" [ref=e11]
+          - generic [ref=e12]:
+            - generic [ref=e13]: "Password:"
+            - textbox "Password:" [ref=e14]
+          - generic [ref=e16] [cursor=pointer]:
+            - checkbox "Remember me" [ref=e17] [cursor=pointer]
+            - text: Remember me
+          - button "Login" [ref=e18] [cursor=pointer]
+        - generic [ref=e20]:
+          - heading "Register" [level=2] [ref=e21]
+          - generic [ref=e22]:
+            - generic [ref=e23]: "Full Name:"
+            - textbox "Full Name:" [ref=e24]: John Doe
+          - generic [ref=e25]:
+            - generic [ref=e26]: "Email:"
+            - textbox "Email:" [ref=e27]: john.doe@example.com
+          - generic [ref=e28]:
+            - generic [ref=e29]: "Password:"
+            - textbox "Password:" [ref=e30]: securepass123
+          - generic [ref=e31]:
+            - generic [ref=e32]: "Country:"
+            - combobox "Country:" [ref=e33]:
+              - option "Select country"
+              - option "United States"
+              - option "United Kingdom"
+              - option "Canada" [selected]
+              - option "Australia"
+          - generic [ref=e35] [cursor=pointer]:
+            - checkbox "I agree to terms and conditions" [checked] [ref=e36] [cursor=pointer]
+            - text: I agree to terms and conditions
+          - button "Register" [ref=e37] [cursor=pointer]
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - heading "Demo Instructions" [level=3] [ref=e40]
+          - button "Run Login Demo" [ref=e41] [cursor=pointer]
+          - button "Run Register Demo" [active] [ref=e42] [cursor=pointer]
+          - button "Destroy Cursor" [ref=e43] [cursor=pointer]
+        - generic [ref=e44]:
+          - heading "Event Log:" [level=3] [ref=e45]
+          - generic [ref=e46]:
+            - generic [ref=e47]: "11:22:16 AM: ✅ Register Demo Complete!"
+            - generic [ref=e48]: "11:22:16 AM: ✅ Register button clicked!"
+            - generic [ref=e49]: "11:22:16 AM: Clicking register button..."
+            - generic [ref=e50]: "11:22:15 AM: Moving to register button..."
+            - generic [ref=e51]: "11:22:14 AM: Checking terms and conditions..."
+            - generic [ref=e52]: "11:22:13 AM: Moving to terms checkbox..."
+            - generic [ref=e53]: "11:22:13 AM: Selected: Canada"
+            - generic [ref=e54]: "11:22:12 AM: Selecting country..."
+            - generic [ref=e55]: "11:22:11 AM: Moving to country dropdown..."
+            - generic [ref=e56]: "11:22:09 AM: Typing password..."
+  - generic:
+    - img
+```

@@ -1,5 +1,8 @@
 # AgentCursor
 
+[![npm version](https://badge.fury.io/js/agent-cursor.svg)](https://www.npmjs.com/package/agent-cursor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A programmatic cursor control library that enables AI agents and automation scripts to visually interact with web pages. Perfect for building browser automation tools, AI agents, and demonstrating automated workflows.
 
 ## Features
@@ -205,6 +208,27 @@ MIT © Rajasekarm
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Development
+
+### Local Development
+
+```bash
+git clone https://github.com/rajasekarm/agent-cursor.git
+cd agent-cursor
+npm install
+npm run dev
+```
+
+### Building
+
+```bash
+npm run build
+```
+
+### Publishing
+
+See [PUBLISHING.md](PUBLISHING.md) for detailed publishing instructions using GitHub Actions.
 
 ## Repository
 
