@@ -1,6 +1,6 @@
 {
   "name": "agent-cursor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A programmatic cursor control library for AI agents and browser automation to interact with web pages",
   "type": "module",
   "main": "./lib/agent-cursor.js",
