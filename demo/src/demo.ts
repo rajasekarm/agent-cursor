@@ -135,11 +135,11 @@ document
     await cursor.moveToElement(registerCountry);
     await new Promise((resolve) => setTimeout(resolve, 300));
 
-    // Select country (index 3 = Australia)
+    // Select country (index 4 = Australia)
     log('Selecting country...');
-    await cursor.selectByIndex(registerCountry, 3);
+    await cursor.selectByIndex(registerCountry, 4);
     await new Promise((resolve) => setTimeout(resolve, 500));
-    log(`Selected: ${registerCountry.options[3].text}`);
+    log(`Selected: ${registerCountry.options[4].text}`);
 
     // Go to terms checkbox
     const termsCheckbox = document.getElementById(
