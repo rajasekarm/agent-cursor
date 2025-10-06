@@ -16,7 +16,7 @@
     /* Emit */
     "declaration": true,
     "declarationMap": true,
-    "outDir": "./dist",
+    "outDir": "./lib",
     "rootDir": "./src",
     /* Linting */
     "strict": true,
@@ -29,7 +29,7 @@
   ],
   "exclude": [
     "node_modules",
-    "dist",
+    "lib",
     "demo"
   ]
 }

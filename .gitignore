@@ -12,6 +12,7 @@ test-results/*
 
 # Dependencies
 node_modules
+lib
 dist
 dist-ssr
 *.local

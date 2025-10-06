@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "A programmatic cursor control library for AI agents and browser automation to interact with web pages",
   "type": "module",
-  "main": "./dist/agent-cursor.js",
-  "types": "./dist/agent-cursor.d.ts",
+  "main": "./lib/agent-cursor.js",
+  "types": "./lib/agent-cursor.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/agent-cursor.js",
-      "types": "./dist/agent-cursor.d.ts"
+      "import": "./lib/agent-cursor.js",
+      "types": "./lib/agent-cursor.d.ts"
     }
   },
   "files": [
-    "dist",
+    "lib",
     "README.md",
     "LICENSE"
   ],

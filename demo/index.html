@@ -106,5 +106,22 @@
       </div>
     </div>
     <script type="module" src="./src/demo.ts"></script>
+    <!-- Google tag (gtag.js) - Only load on production domain -->
+    <script>
+      if (window.location.hostname === 'rajasekarm.github.io') {
+        // Load Google Analytics script
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-6KZ5SL9YM7';
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-6KZ5SL9YM7');
+      }
+    </script>
   </body>
 </html>
